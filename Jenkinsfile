@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git credentialsId: 'github-creds',
-                    url: 'https://github.com/<your-username>/jenkins-demo.git'
+                    url: 'https://github.com/RaavanGokul/jenkins_demo.git'
             }
         }
 
